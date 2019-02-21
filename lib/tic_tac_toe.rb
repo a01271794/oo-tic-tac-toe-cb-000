@@ -72,6 +72,11 @@ class TicTacToe
       position1 = @board[index1]
       position2 = @board[index2]
 
+      if position0 == "X" && position1 == "X" && position2 == "X"
+        return combinations
+      elsif position0 == "O" && position1 == "O" && position2 == "O"
+        return combinations
+      end
     }
   return false
   end
