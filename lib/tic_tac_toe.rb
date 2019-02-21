@@ -61,4 +61,18 @@ class TicTacToe
       turn
     end
   end
+
+  def won?
+    WIN_COMBINATIONS.each { |combinations|
+      index1 = combinations[0]
+      index2 = combinations[1]
+      index3 = combinations[2]
+
+      postion1 = @board[index0]
+      position2 = @board[index1]
+      position3 = @board[index2]
+      
+    }
+  end
+  return false
 end
