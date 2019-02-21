@@ -101,26 +101,26 @@ class TicTacToe
     end
   end
 
-  def winner (@board)
-    location = []
-    location = won?(@board)
-    if location == false
+  def winner 
+    index = []
+    index = won?)
+    if index == false
       return nil
-    elsif @board[location[0]] == "X"
+    elsif @board[index[0]] == "X"
       return "X"
-    elsif @board[location[0]] == "O"
+    elsif @board[index[0]] == "O"
       return "O"
     end
   end
 
-  def play(@board)
-    until over?(@board) == true
-      turn(@board)
+  def play
+    until over? == true
+      turn
     end
 
-    if won?(@board)
-      puts "Congratulations #{winner(board)}!"
-    elsif draw?(@board)
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
       puts "Cat's Game!"
     end
   end
