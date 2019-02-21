@@ -71,7 +71,7 @@ class TicTacToe
       postion1 = @board[index0]
       position2 = @board[index1]
       position3 = @board[index2]
-      
+
     }
   end
   return false
