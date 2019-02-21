@@ -43,6 +43,6 @@ class TicTacToe
   end
 
   def turn_count
-    @board.count{|player_token| player_token = "X" || player_token = "O"}
+    @board.count{|player_token| player_token == "X" || player_token == "O"}
   end
 end
