@@ -101,14 +101,14 @@ class TicTacToe
     end
   end
 
-  def winner (board)
+  def winner (@board)
     location = []
-    location = won?(board)
+    location = won?(@board)
     if location == false
       return nil
-    elsif board[location[0]] == "X"
+    elsif @board[location[0]] == "X"
       return "X"
-    elsif board[location[0]] == "O"
+    elsif @board[location[0]] == "O"
       return "O"
     end
   end
