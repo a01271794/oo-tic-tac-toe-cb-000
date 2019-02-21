@@ -42,4 +42,7 @@ class TicTacToe
     index.between?(0,8) && !position_taken?(index)
   end
 
+  def turn_count
+    @board.count{|player_token| player_token = "X" || player_token = "O"}
+  end
 end
