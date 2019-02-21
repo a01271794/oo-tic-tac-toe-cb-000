@@ -68,7 +68,7 @@ class TicTacToe
       index1 = combinations[1]
       index2 = combinations[2]
 
-      postion0 = @board[index0]
+      position0 = @board[index0]
       position1 = @board[index1]
       position2 = @board[index2]
 
