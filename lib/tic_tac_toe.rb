@@ -64,15 +64,15 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.each { |combinations|
-      index1 = combinations[0]
-      index2 = combinations[1]
-      index3 = combinations[2]
+      index0 = combinations[0]
+      index1 = combinations[1]
+      index2 = combinations[2]
 
-      postion1 = @board[index0]
-      position2 = @board[index1]
-      position3 = @board[index2]
+      postion0 = @board[index0]
+      position1 = @board[index1]
+      position2 = @board[index2]
 
     }
   return false
-end
+  end
 end
