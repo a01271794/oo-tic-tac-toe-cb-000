@@ -125,4 +125,3 @@ class TicTacToe
     end
   end
 end
-
