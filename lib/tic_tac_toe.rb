@@ -82,7 +82,10 @@ class TicTacToe
   end
 
   def full?
-    @board.all? {|index| index == "X" || index = "O"}
+    if @board.all?[index] == "X" || @board.all?[index] == "O"
+      return true
+    else
+      false       
   end
 
   def draw?
