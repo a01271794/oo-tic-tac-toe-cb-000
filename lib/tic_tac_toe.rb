@@ -78,6 +78,6 @@ class TicTacToe
         return combinations
       end
     }
-  return false
+    return false
   end
 end
