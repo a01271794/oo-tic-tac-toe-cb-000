@@ -86,6 +86,7 @@ class TicTacToe
       return true
     else
       false
+    end
   end
 
   def draw?
